@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
-
+import 'package:projetos/pratica11/descricoes/praia.dart';
 
 import 'descricoes/grandcanyon.dart';
 import 'descricoes/newyork.dart';
+import 'descricoes/praia.dart';
+import 'descricoes/deserto.dart';
+import 'descricoes/neblina.dart';
+import 'descricoes/construcaoRustica.dart';
+import 'descricoes/estrada.dart';
+import 'descricoes/alpinismo.dart';
+import 'descricoes/floresta.dart';
 
 void main() => runApp(
       MaterialApp(
@@ -59,7 +66,7 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => TerceiraRota()),
+                    MaterialPageRoute(builder: (context) => QuartaRota()),
                   );
                 },
               ),
@@ -73,7 +80,7 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => TerceiraRota()),
+                    MaterialPageRoute(builder: (context) => QuintaRota()),
                   );
                 },
               ),
@@ -87,7 +94,7 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => TerceiraRota()),
+                    MaterialPageRoute(builder: (context) => SextaRota()),
                   );
                 },
               ),
@@ -101,7 +108,7 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => TerceiraRota()),
+                    MaterialPageRoute(builder: (context) => SetimaRota()),
                   );
                 },
               ),
@@ -115,7 +122,7 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => TerceiraRota()),
+                    MaterialPageRoute(builder: (context) => OitavaRota()),
                   );
                 },
               ),
@@ -129,7 +136,7 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => TerceiraRota()),
+                    MaterialPageRoute(builder: (context) => NonaRota()),
                   );
                 },
               ),
@@ -143,7 +150,7 @@ class Home extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => TerceiraRota()),
+                    MaterialPageRoute(builder: (context) => DecimaRota()),
                   );
                 },
               ),
@@ -156,4 +163,3 @@ class Home extends StatelessWidget {
 
   void get child => child;
 }
-
