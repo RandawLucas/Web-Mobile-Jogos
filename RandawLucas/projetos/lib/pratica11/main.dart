@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:projetos/pratica11/descricoes/praia.dart';
 
 import 'descricoes/grandcanyon.dart';
 import 'descricoes/newyork.dart';
